@@ -18,7 +18,7 @@ void print_alphabet_x10(void)
 	{	
 		num_of_iteration = 10;
 
-		while (lower_alpha <= 'a')
+		while (lower_alpha <= 'z')
 		{
 			_putchar(lower_alpha);
 			lower_alpha++;
