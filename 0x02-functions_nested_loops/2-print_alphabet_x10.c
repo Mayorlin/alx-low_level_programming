@@ -13,10 +13,11 @@ void print_alphabet_x10(void)
 	char num_of_iteration;
 
 	lower_alpha = 'a';
-	num_of_iteration = 10;
 
 	while (num_of_iteration <= 10)
-	{
+	{	
+		num_of_iteration = 10;
+
 		while (lower_alpha <= 'a')
 		{
 			_putchar(lower_alpha);
