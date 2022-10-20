@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Function to print a to z
+ * main - call function to print a to z
  *
- * Description: print_alphabet(void) prints 'a' to 'z'
+ * print_alphabet: print_alphabet "prints a to z"
  *
  * Return: Always 0 (Success)
  */
@@ -15,7 +15,7 @@ int main(void)
 	return (0);
 }
 
-void print_alphabet()
+void print_alphabet(void)
 {
 	char lower_alpha;
 
