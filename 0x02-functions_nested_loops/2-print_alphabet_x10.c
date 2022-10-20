@@ -25,6 +25,6 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 
-		num_of_iteration++;
+		++num_of_iteration;
 	}
 }
