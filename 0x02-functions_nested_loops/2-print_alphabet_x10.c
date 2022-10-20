@@ -12,11 +12,11 @@ void print_alphabet_x10(void)
 	char lower_alpha;
 	char num_of_iteration;
 
-	lower_alpha = 'a';
+	num_of_iteration = 0;
 
 	while (num_of_iteration <= 10)
 	{	
-		num_of_iteration = 10;
+		lower_alpha = 'a';
 
 		while (lower_alpha <= 'z')
 		{
