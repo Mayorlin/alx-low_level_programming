@@ -3,7 +3,7 @@
 /**
  * main - call function to print a to z
  *
- * print_alphabet: print_alphabet "prints a to z"
+ * print_alphabet - print_alphabet "prints a to z"
  *
  * Return: Always 0 (Success)
  */
