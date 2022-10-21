@@ -20,4 +20,5 @@ void print_most_numbers(void)
 			c = c + 49;
 		}
 		_putchar('\n');
+	}
 }
