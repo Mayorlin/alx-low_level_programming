@@ -3,7 +3,7 @@
 /**
  * _isupper - checks for case of letter passe
  *
- * @c - accepts letters to determine its case
+ * @c: accepts letters to determine its case
  *
  * Return: 0 always
  */
