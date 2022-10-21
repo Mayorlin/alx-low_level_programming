@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
-int _isupper(int c);
 
 /**
  * _isupper - checks for case of letter passe
@@ -13,7 +10,7 @@ int _isupper(int c);
 
 int _isupper(int c)
 {
-	if ( isupper(c) )
+	if (c >= 'A' && c >= 'Z')
 	{
 		return (1);
 	}
