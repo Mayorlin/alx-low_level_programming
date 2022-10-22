@@ -16,8 +16,10 @@ void more_numbers(void)
 		for (c = 0; c <= 10; c++)
 		{
 			if (c >= 10)
-			_putchar('1');
-			_putchar (c % 10 +'0');
+			{
+				_putchar('1');
+			}
+			_putchar (c % 10 + '0');
 		}
 		_putchar('\n');
 	}
