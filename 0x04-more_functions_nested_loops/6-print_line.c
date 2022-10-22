@@ -3,6 +3,8 @@
 /**
  * print_line - print line
  *
+ * @n: prints dashes
+ *
  * Return: 0
  */
 
