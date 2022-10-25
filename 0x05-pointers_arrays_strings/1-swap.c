@@ -12,12 +12,11 @@
 
 void swap_int(int *a, int *b)
 {
-	int first_integer;
-	int second_integer;
+	int y, z;
 
-	*a = first_integer;
-	*b = second_integer;
+	y = *a;
+	z = *b;
 
-	*a = second_integer;
-	*b = first_integer;
+	*a = z;
+	*b = y;
 }
