@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - hexadecimal numbers
+ * main - Accepts the input
+ *
+ * Description: Analyses base 16 number
+ *
+ * int: return value of main
  *
  * Result: Always 0 (Success)
  */
