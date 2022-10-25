@@ -14,6 +14,6 @@ int _strlen(char *s)
 	int lenth;
 
 	*s = lt;
-	lenth = _putchar(length);
+	lenth = _putchar(lt);
 	return (lenth);
 }
