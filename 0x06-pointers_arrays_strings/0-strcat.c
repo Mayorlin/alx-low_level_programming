@@ -13,7 +13,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char c, d;
+	int c, d;
 
 	c = 0;
 	while (dest[c])
@@ -24,5 +24,6 @@ char *_strcat(char *dest, char *src)
 		c += 1;
 	}
 	dest[c] = '\0';
+
 	return (dest);
 }
