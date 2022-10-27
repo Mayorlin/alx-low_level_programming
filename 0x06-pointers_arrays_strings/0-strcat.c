@@ -13,7 +13,11 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int c;
+	char c, d;
 
-	c = strcat(dest, src);
+	c = strlen(dest);
+	for (; d >= c; d++)
+	{
+		_putchar(src);
+	}
 }
