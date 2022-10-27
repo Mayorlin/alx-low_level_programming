@@ -19,5 +19,6 @@ char *_strcat(char *dest, char *src)
 	for (; d >= c; d++)
 	{
 		_putchar(src);
+		break;
 	}
 }
