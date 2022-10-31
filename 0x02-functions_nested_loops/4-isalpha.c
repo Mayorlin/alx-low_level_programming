@@ -20,14 +20,17 @@ int _isalpha(int c)
 		if (c == upperCase)
 			return (1);
 			upperCase++;
+		else
+			return (0);
 	}
 	while (lowerCase = 'a')
 	{
 		if (c == lowerCase)
 			return (1);
-		lowerCase++;
+			lowerCase++;
+		else
+			return (0);
 	}
 
-		return (0);
 	return (0);
 }
