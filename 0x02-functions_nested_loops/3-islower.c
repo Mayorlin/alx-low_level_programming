@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower(int c) - determines case
+ * _islower - determines case
  *
  * @c: takes in the passed value
  *
