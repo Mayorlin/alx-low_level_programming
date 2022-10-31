@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
-
 /**
  * _islower(int c) - determines case
  *
@@ -12,8 +9,17 @@
 
 int _islower(int c)
 {
-	if (!islower(c))
-		return (0);
-	else
-		return (1);
+	int lowercase;
+	lowercase = 'a';
+
+	while (lowercase <= 'z')
+	{
+		if (lowercase == c)
+			return (1);
+		else
+			return (0);
+		lowercase++;
+	}
+	
+	return (0);
 }
