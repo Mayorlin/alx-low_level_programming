@@ -25,6 +25,8 @@ int _isalpha(int c)
 				upperCase++;
 			}
 		}
+		else
+			return (0);
 	
 		if (c == lowerCase)
 		{
