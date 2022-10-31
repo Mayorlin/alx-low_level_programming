@@ -10,6 +10,7 @@
 int _islower(int c)
 {
 	int lowercase;
+
 	lowercase = 'a';
 
 	while (lowercase <= 'z')
@@ -20,6 +21,6 @@ int _islower(int c)
 	}
 	if (lowercase != c)
 		return (0);
-	
+
 	return (0);
 }
