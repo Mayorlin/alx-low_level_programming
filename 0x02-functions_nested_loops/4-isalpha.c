@@ -3,7 +3,7 @@
 /**
  * int _isalpha - checks and return boolean value
  *
- * @c: passes value to function
+ * @c: passes value to function.
  *
  */
 
