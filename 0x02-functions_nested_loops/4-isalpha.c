@@ -15,21 +15,22 @@ int _isalpha(int c)
 	upperCase = 'A';
 	lowerCase = 'a';
 
-	while (upperCase = 'A')
+	if ((c == upperCase) || (c == lowerCase))
 	{
-		if (c == upperCase)
+		while (upperCase <= 'Z')
+		{
 			return (1);
 			upperCase++;
-		else
-			return (0);
-	}
-	while (lowerCase = 'a')
-	{
-		if (c == lowerCase)
+		}
+		while (lowerCase <= 'z')
+		{
 			return (1);
 			lowerCase++;
-		else
-			return (0);
+		}
+	}
+	else
+	{
+		return (0);
 	}
 
 	return (0);
