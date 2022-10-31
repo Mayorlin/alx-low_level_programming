@@ -16,10 +16,10 @@ int _islower(int c)
 	{
 		if (lowercase == c)
 			return (1);
-		else
-			return (0);
 		lowercase++;
 	}
+	if (lowercase != c)
+		return (0);
 	
 	return (0);
 }
