@@ -11,7 +11,7 @@
 
 int print_sign(int n)
 {
-	int negative, positive, zero;
+	int zero;
 
 	zero = 0;
 
