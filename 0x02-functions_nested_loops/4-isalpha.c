@@ -5,10 +5,6 @@
  *
  * @c: passes value to function
  *
- * @lowerCase: if value is in lowerCase
- *
- * @upperCase: if value is in upperCase
- *
  * Return: integer
  *
  */
