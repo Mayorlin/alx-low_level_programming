@@ -13,23 +13,21 @@ int print_sign(int n)
 {
 	int negative, positive, zero;
 
-	negative = '-';
-	positive = '+';
 	zero = 0;
 
 	if (n > zero)
 	{
 		return (1);
-		_putchar(positive);
+		_putchar('+');
 	}
 	else if (n < 0)
 	{
 		return (-1);
-		_putchar(negative);
+		_putchar('-');
 	}
 	else
 	{
 		return (0);
-		_putchar(zero);
+		_putchar(0);
 	}
 }
