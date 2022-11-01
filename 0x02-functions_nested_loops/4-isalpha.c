@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _isalpha - checks and return boolean value
+ * _isalpha - checks and return boolean value
  *
  * @c: passes value to function.
  *
@@ -38,4 +38,5 @@ int _isalpha(int c)
 	}
 	else
 		return (0);
+	return (0);
 }
