@@ -11,36 +11,31 @@ int _isalpha(int c)
 {
 	int upperCase;
 	int lowerCase;
-	
-	upperCase = 'A';
-	lowerCase = 'a';
 
-	if ((c == upperCase) || (c == lowerCase))
+	if (c != lowerCase)
 	{
-		if (c == upperCase)
+		upperCase = 'A';
+		while (upperCase >= 'Z')
 		{
-			while (upperCase <= 'Z')
+			if (c == upperCase)
 			{
 				return (1);
-				upperCase++;
 			}
+			upperCase++;
 		}
-		else
-			return (0);
-	
-		if (c == lowerCase)
+	}
+	else if (c != upperCase)
+	{
+		lowerCase = 'a';
+		while (lowerCase >= 'z')
 		{
-			while (lowerCase <= 'z')
+			if (c == lowerCase)
 			{
 				return (1);
-				lowerCase++;
 			}
+			lowerCase--;
 		}
 	}
 	else
-	{
 		return (0);
-	}
-
-	return (0);
 }
