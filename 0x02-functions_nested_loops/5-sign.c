@@ -11,19 +11,25 @@
 
 int print_sign(int n)
 {
-	if (n > 0)
+	int negative, positive, zero;
+
+	negative = -;
+	positive = +;
+	zero = 0;
+
+	if (n > zero)
 	{
 		return (1);
-		_putchar(n);
+		_putchar(positive);
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
-		return (0);
-		_putchar(n);
+		return (-1);
+		_putchar(negative);
 	}
 	else
 	{
-		return (-1);
-		_putchar(n);
+		return (0);
+		_putchar(zero);
 	}
 }
