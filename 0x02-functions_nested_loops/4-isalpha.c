@@ -23,7 +23,9 @@ int _isalpha(int c)
 			return (1);
 			upperCase++;
 		}
-
+	}
+	else if
+	{
 		lowerCase = 'a';
 
 		while (lowerCase <= 'z')
