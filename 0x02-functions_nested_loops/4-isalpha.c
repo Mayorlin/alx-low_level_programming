@@ -3,7 +3,13 @@
 /**
  * _isalpha - checks and return boolean value
  *
- * @c: passes value to function.
+ * @c: passes value to function
+ *
+ * @lowerCase: if value is in lowerCase
+ *
+ * @upperCase: if value is in upperCase
+ *
+ * Return: integer
  *
  */
 
@@ -33,7 +39,7 @@ int _isalpha(int c)
 			{
 				return (1);
 			}
-			lowerCase--;
+			lowerCase++;
 		}
 	}
 	else
