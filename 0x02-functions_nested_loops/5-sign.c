@@ -13,8 +13,8 @@ int print_sign(int n)
 {
 	int negative, positive, zero;
 
-	negative = -;
-	positive = +;
+	negative = '-';
+	positive = '+';
 	zero = 0;
 
 	if (n > zero)
