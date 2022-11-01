@@ -16,7 +16,7 @@ int _isalpha(int c)
 
 	upperCase = 'A';
 	lowerCase = 'a';
-	if (c != lowerCase)
+	if (c = upperCase)
 	{
 		while (upperCase >= 'Z')
 		{
@@ -27,7 +27,7 @@ int _isalpha(int c)
 			upperCase++;
 		}
 	}
-	else if (c != upperCase)
+	else if (c = lowerCase)
 	{
 		while (lowerCase >= 'z')
 		{
