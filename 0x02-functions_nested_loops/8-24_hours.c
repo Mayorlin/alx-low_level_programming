@@ -15,21 +15,21 @@
 
 void jack_bauer(void)
 {
-	char h;
+	int h;
 
 	h = 0;
 	while (h <= 24)
 	{
 		_putchar(h);
 
-		char m;
+		int m;
 
 		m = 0;
 			while (m <= 60)
 			{
 				_putchar("00: "m);
 
-				char s;
+				int s;
 
 				s = 0;
 					while (s <= 60)
