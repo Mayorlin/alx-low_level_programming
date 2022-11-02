@@ -15,30 +15,18 @@
 
 void jack_bauer(void)
 {
-	int h;
+	int h, m, s;
 
-	h = 0;
-	while (h <= 24)
+	for (h = 0; h <= 24; h++)
 	{
-		_putchar(h);
-
-			int m;
-
-			m = 0;
-			while (m <= 60)
+		for (m = 0; m <= 60; m++)
+		{
+			for (s = 0; s <= 60; s++)
 			{
-				_putchar("00: "m);
-
-					int s;
-
-					s = 0;
-					while (s <= 60)
-					{
-						_putchar ("00: 00: "s);
-						s++;
-					}
-				m++;
+				_putchar(s);
 			}
-		h++;
+			_putchar(m);
+		}
+		_putchar(h);
 	}
 }
