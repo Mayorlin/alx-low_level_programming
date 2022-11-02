@@ -17,22 +17,22 @@ void jack_bauer(void)
 {
 	char h;
 
-	h = "0";
-	while (h <= "24")
+	h = 0;
+	while (h <= 24)
 	{
 		_putchar(h);
 
 		char m;
 
-		m = "0";
-			while (m <= "60")
+		m = 0;
+			while (m <= 60)
 			{
 				_putchar("00: "m);
 
 				char s;
 
-				s = "0";
-					while (s <= "60")
+				s = 0;
+					while (s <= 60)
 					{
 						_putchar ("00: 00: "s);
 						s++;
