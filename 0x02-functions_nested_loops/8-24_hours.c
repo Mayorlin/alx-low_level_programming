@@ -23,10 +23,10 @@ void jack_bauer(void)
 		{
 			for (s = 0; s <= 60; s++)
 			{
-				_putchar(s);
+				_putchar('s');
 			}
-			_putchar(m);
+			_putchar('m');
 		}
-		_putchar(h);
+		_putchar('h');
 	}
 }
