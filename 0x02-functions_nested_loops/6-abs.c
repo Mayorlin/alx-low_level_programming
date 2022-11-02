@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs(int) - Computes the absolute value
+ * _abs - Computes the absolute value
  *
  * @n: value entered, and value checked
  *
